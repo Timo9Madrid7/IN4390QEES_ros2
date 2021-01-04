@@ -1,0 +1,18 @@
+// The reachability graph for Q5 - Petri Net
+digraph petriNet {
+	graph [rankdir=TB]
+	node [color=black fontcolor=black fontname="Microsoft YaHei" fontsize=12 shape=oval style=rounded]
+	edge [color=blue fontcolor=blue fontname="Microsoft YaHei" fontsize=10]
+	0 [label="[2 5 4 2 0 0 2]"]
+	1 [label="[2 6 4 2 0 0 2]"]
+	0 -> 1 [label="request service 1"]
+	2 [label="[2 5 5 2 0 0 2]"]
+	0 -> 2 [label="request service 2"]
+	3 [label="[2 5 4 3 0 0 2]"]
+	0 -> 3 [label="request service 3"]
+	4 [label="[0 4 4 2 2 0 2]"]
+	0 -> 4 [label="noise removal"]
+	5 [label="[1 5 3 2 0 1 2]"]
+	0 -> 5 [label="scene identification"]
+	0 -> 0 [label="reading database"]
+}
