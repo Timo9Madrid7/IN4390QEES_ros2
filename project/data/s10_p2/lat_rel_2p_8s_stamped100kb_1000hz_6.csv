@@ -1,0 +1,17 @@
+node           topic          size[b]   received[#]    late[#]   too_late[#]    lost[#]   mean[us]  sd[us]    min[us]   max[us]   freq[hz]  duration[s]
+node_0         topic_8        102400    32464          0         32464          12312     nan       nan       nan       nan       1000      45        
+node_0         topic_9        102400    32465          0         32465          12161     nan       nan       nan       nan       1000      45        
+node_1         topic_8        102400    32461          0         32461          12316     nan       nan       nan       nan       1000      45        
+node_1         topic_9        102400    32465          0         32465          12161     nan       nan       nan       nan       1000      45        
+node_2         topic_8        102400    32460          0         32460          12317     nan       nan       nan       nan       1000      45        
+node_2         topic_9        102400    32459          0         32459          12167     nan       nan       nan       nan       1000      45        
+node_3         topic_8        102400    32454          0         32454          12323     nan       nan       nan       nan       1000      45        
+node_3         topic_9        102400    32460          0         32460          12166     nan       nan       nan       nan       1000      45        
+node_4         topic_8        102400    32450          0         32450          12327     nan       nan       nan       nan       1000      45        
+node_4         topic_9        102400    32454          0         32454          12173     nan       nan       nan       nan       1000      45        
+node_5         topic_8        102400    32438          0         32438          12338     nan       nan       nan       nan       1000      45        
+node_5         topic_9        102400    32439          0         32439          12186     nan       nan       nan       nan       1000      45        
+node_6         topic_8        102400    32470          0         32470          12306     nan       nan       nan       nan       1000      45        
+node_6         topic_9        102400    32469          0         32469          12156     nan       nan       nan       nan       1000      45        
+node_7         topic_8        102400    32464          0         32464          12312     nan       nan       nan       nan       1000      45        
+node_7         topic_9        102400    32459          0         32459          12167     nan       nan       nan       nan       1000      45        
